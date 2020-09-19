@@ -1,0 +1,26 @@
+/**
+* @file factorial.h
+*
+*/
+#ifndef __ATMBANKING_H__
+#define __ATMBANKING_H__
+
+/**
+* Identifies whether the number is prime or note
+* @param[in] number for which prime to be checked
+* @return 0 of the prime number
+* @note Returns 1 for non prime numbers
+*/
+void login();
+void mainMenu();
+void checkBalance(float balance);
+float moneyDeposit(float balance);
+float moneyWithdraw(float balance);
+void menuExit();
+void errorMessage();
+
+#endif /* #ifndef __ATMBANKING_H__ */
+
+
+
+
